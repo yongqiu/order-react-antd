@@ -1,0 +1,41 @@
+
+:global( .statusBlockInTracking ) {
+	margin-top: -32px;
+}
+
+:global(.statusBlockInTracking .am-accordion-header) {
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+	color: #3e89b3 !important;
+	font-size: 30px !important;
+	font-weight: bold;
+}
+
+:global(.am-accordion) {
+	border-top: none !important;
+}
+
+:global(.accordionInTracking .am-accordion-header:after) {
+	border-bottom: none !important;
+}
+
+:global(.accordionInTracking .am-accordion-content-box:after) {
+	border-bottom: none !important;
+}
+
+:global( .statusUpdateTime ) {
+	font-weight: normal;
+	font-size: 24px;
+}
+
+:global( .statusContent ) {
+	background: #f5f5f5;
+	width: 97%;
+	height: auto;
+	border-radius: 4px;
+}
+
+.contentwrap {
+	padding: 10px 40px;
+	color: #3e89b3;
+}

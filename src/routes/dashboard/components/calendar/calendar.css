@@ -1,0 +1,86 @@
+
+.tip {
+	margin: 100px auto 30px auto;
+}
+
+.devideLine {
+	border: 1px solid #ddd;
+	width: 96%;
+	margin: 0px auto;
+}
+
+.devideTip {
+	font-size: 36px;
+	color: #686868;
+	margin: 0px auto;
+	margin-top: -20px;
+	background: #F5F5F9;
+	width: 60%;
+}
+
+:global(.day) {
+	font-size: 54px;
+	font-weight: bold;
+	color: #444;
+	margin-top: 20px;
+}
+
+:global(.weekend) {
+	font-size: 54px;
+	font-weight: bold;
+	margin-top: 20px;
+	color: #fea304;
+}
+
+:global(.month) {
+	font-size: 36px;
+	color: #444;
+	margin-top: 16px;
+}
+
+:global(.monthonweekday) {
+	font-size: 36px;
+	margin-top: 16px;
+	color: #fea304;
+}
+
+.status {
+	text-align: right;
+	position: relative;
+	top: -10px;
+	right: 10px;
+}
+
+:global(.ncarousel) {
+	height: 300px;
+	margin-bottom: 40px;
+}
+
+:global(.ncarousel div.carouselContent) {
+	height: 300px;
+}
+
+:global(.calendarItemsWrap) {
+	width: 96%;
+	margin: 0px auto;
+}
+
+:global(.calendarItemsWrap .calendarItem) {
+	text-align: center;
+	border: 1px solid #dadada;
+	background: #fff;
+	border-radius: 12px;
+	height: 262px;
+}
+
+:global(.calendarItemsWrap .calendarItemDisable) {
+	opacity: 0.5;
+}
+
+:global(.calendarItemsWrap .calendarweekday) {
+	background: #53cdfe;
+	color: #ffffff;
+	font-size: 36px;
+	padding: 14px 0px;
+	border-radius: 12px 12px 0px 0px;
+}

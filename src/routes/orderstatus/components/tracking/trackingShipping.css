@@ -1,0 +1,37 @@
+
+.contentwrap {
+	color: #3e89b3;
+}
+
+.shipTitle {
+	color: #333;
+}
+
+.shipContent {
+	font-size: 26px;
+	word-break: break-all;
+}
+
+.shipTitleEtdChangeTo {
+	color: #ff6633;
+}
+
+.shipContentEtdChangeTo {
+	font-size: 26px;
+	word-break: break-all;	
+	color: #ff6633;
+}
+
+.shipTitleFreeDetention {
+	color: #89af02;
+}
+
+.shipContentFreeDetention {
+	font-size: 26px;
+	word-break: break-all;	
+	color: #89af02;
+}
+
+.contentItem {
+	padding: 10px;
+}

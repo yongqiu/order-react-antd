@@ -1,0 +1,22 @@
+
+.blockTitle {
+	padding: 50px 40px 20px 40px;
+	font-size: 36px;
+	color: #333;
+}
+
+.paymentItem {
+	padding: 40px 40px 0px 40px;
+}
+
+.paymentItemTitle {
+	line-height: 60px;
+}
+
+.paymentItemContent {
+	color: #3e89b3;
+}
+
+.payType {
+	margin: 6px 0px;
+}

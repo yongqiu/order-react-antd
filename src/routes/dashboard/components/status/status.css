@@ -1,0 +1,35 @@
+
+:global(.statusWrap) {
+	width: 100%;
+	height: auto;
+}
+
+:global(.statusWrap .am-flexbox .am-flexbox-item ){
+	flex: none;
+}
+
+.statusItem {
+	width: 96%;
+	height: 170px;
+	margin: 0px auto;
+	background: #fff;
+	margin-bottom: 26px;
+}
+
+.statusImg {
+	width: 18%;
+	text-align: center;
+}
+
+.statusName {
+	width: 58%;
+	font-size: 36px;
+	color: #686868;
+}
+
+.statusAmmount {
+	width: 18%;
+	font-size: 72px;
+	font-weight: bold;
+	color: #03a9f4;
+}

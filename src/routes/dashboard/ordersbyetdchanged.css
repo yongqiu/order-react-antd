@@ -1,0 +1,8 @@
+
+:global( .etdOrdersWrap .am-navbar ){
+	color: #fff;
+}
+
+:global( .etdOrdersWrap .am-navbar .am-navbar-title ){
+	color: #fff;
+}

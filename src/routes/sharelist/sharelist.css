@@ -1,0 +1,15 @@
+
+:global(.SwipeAction .am-swipe-btn) {
+  margin-bottom:16px;
+  z-index: 999;
+};
+
+:global(.SwipeAction .am-swipe-content .orderwrap){
+  margin: 32px 0px 0px 0px;
+}
+
+:global(.sharelistwrap) {
+	height: 78% !important;
+	margin: 0px !important;
+	border: none !important;
+}

@@ -1,0 +1,46 @@
+.saveButton{
+    background: #00A9F4;
+    width: 90%;
+    margin: 30px auto;
+    border: none;
+}
+
+:global(.changepswform .am-list-body){
+  border-top: 1px solid #ccc;
+  border-bottom: 0px;
+}
+:global(.changepswform .am-list-body:after){
+  border-bottom: 0px;
+}
+:global(.changepswform .am-list-item){
+  border-bottom: 1px solid #ccc !important;
+  height: 120px
+}
+
+:global(.changepswform .am-list-item:after){
+  left: 0px !important;
+  border-bottom: 0px;
+}
+
+:global(.changepswform .am-list-item .am-input-label.am-input-label-5){
+    color: #333;
+    width: 300px;
+    overflow:hidden;text-overflow:ellipsis;white-space:nowrap;padding-right: 13px
+}
+
+:global(.actionSheetContainer) {
+  margin: 0 0.3rem;
+}
+
+:global(.my-action-sheet .am-action-sheet-share-list-item-icon img) {
+  width: 0.72rem;
+}
+
+:global(.am-search) {
+  border-bottom: 1px solid #ddd;
+}
+:global(.sub-title) {
+  color: #888;
+  font-size: 28px;
+  padding: 30px 0 18px 0;
+}

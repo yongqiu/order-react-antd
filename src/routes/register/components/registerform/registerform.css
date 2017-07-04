@@ -1,0 +1,52 @@
+.saveButton{
+    background: #00A9F4;
+    width: 90%;
+    margin: 30px auto;
+    border: none;
+}
+
+:global(.registerform .am-list-body){
+  border-bottom: 0px;
+  margin: 40px 0.3rem;
+}
+:global(.registerform .am-list-body:after){
+  border-bottom: 0px;
+}
+:global(.registerform .am-list-item){
+  border-bottom: 1px solid #ccc !important;
+  padding-right: 0px;
+  background: none;
+}
+
+:global(.registerform .am-list-item:after){
+  left: 0px !important;
+  border-bottom: 0px;
+}
+
+:global(.registerform .am-list-item .am-input-label.am-input-label-5){
+    color: #333;
+    width: 300px;
+    overflow:hidden;text-overflow:ellipsis;white-space:nowrap;padding-right: 13px
+}
+
+:global(.registerform label span){
+}
+
+
+:global(.actionSheetContainer) {
+  margin: 0 0.3rem;
+}
+
+:global(.my-action-sheet .am-action-sheet-share-list-item-icon img) {
+  width: 0.72rem;
+}
+:global(.vercode img){width: 250px;height: 100px}
+:global(.vercode label){display: block;}
+:global(.vercode .am-list-item){width: 250px;float: left;margin-right: 30px}
+
+
+:global(.refresh label){display: block;}
+:global(.refresh .refreshbtn){background: none;border: none;}
+
+
+

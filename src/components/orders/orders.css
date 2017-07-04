@@ -1,0 +1,111 @@
+
+:global(.orderheader){
+	padding: 0px;
+	margin: 6px 2px;
+}
+
+:global(.orderheader li){
+	list-style: none;
+	display: inline-block;
+}
+
+:global(.orderheader li.orderheaderleft) {
+	width: 10%;
+	vertical-align: middle;
+}
+
+:global(.orderheader li.orderheadermiddle) {
+	width: 80%;
+	text-align: left;
+	text-indent: 26px;
+	color: #686868;
+	font-size: 90%;
+}
+
+:global(.orderheader li.orderheaderright) {
+	width: 10%;
+	font-weight: bolder;
+	color: #cbcbcb;
+}
+
+:global(.orderwrap) {
+	background: #ffffff;
+    margin-top: 0px;
+	padding: 20px 20px 0px 20px;
+    margin-bottom: 16px;
+}
+
+:global(.ordercontent) {
+	width: 100%;
+}
+
+:global(.ordercontent .contractNo) {
+	color: #686868;
+	text-align: left;
+	font-size: 90%;
+}
+
+:global(.ordercontent .shorttip) {
+	color: #03A9F4;
+	text-align: left;
+}
+
+:global(.ordercontent .shorttip span) {
+	word-break: break-all;
+	font-size: 28px;
+}
+
+:global(.orderwrap div.orderwrapitem) {
+	padding: 2px;
+	margin-bottom: 0.08rem; 
+	border-bottom: 2px solid #dbdbdb;
+	word-break: break-all;
+}
+
+:global(.orderwrapitem .orderheaderleft) {
+	flex: none;
+	width: 12%;
+	font-size: 90%;
+}
+
+:global(.orderwrapitem .orderheadermiddle) {
+	flex: none;
+	width: 78%;
+	font-size: 90%;
+}
+
+:global(ul.orderdatewrap) {
+	list-style: none;
+	width: 100%;
+	padding: 0px;
+}
+
+:global(ul.orderdatewrap li) {
+	display: inline-block;
+	font-size: 28px;
+	float: left;
+	height: 64px;
+}
+
+:global(ul.orderdatewrap li.orderdate) {
+	text-align: left;
+	width: 45%;
+	color: #a6a6a6;
+}
+
+:global(ul.orderdatewrap li.orderstatus) {
+	display: inline-block;
+	text-align: right;
+	width: 55%;
+	color: #4caf50;
+}
+
+:global(.orderstatusview) {
+	padding: 0px;
+	width: 100%;
+	margin: 20px auto;
+}
+
+:global(.orderstatusview img) {
+	width: 100%;
+}

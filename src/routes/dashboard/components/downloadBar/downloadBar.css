@@ -1,0 +1,35 @@
+.logo{flex: none !important;width: 11%;position: relative;}
+.title{flex: none !important;width: 55%;}
+.button{flex: none !important;width: 33%;text-align: right;padding-right: 30px;}
+:global(.downloadBar){padding:24px 30px;background: #53cdfe;}
+:global(.downloadBar span){color: #fff;font-size: 34px}
+:global(.downloadBar .am-button-ghost span){color: #fff;font-size: 30px}
+:global(.downloadBar .am-flexbox-item img){position: absolute;top: 50%;transform: translateY(-50%);}
+:global(.downloadBar .am-flexbox-item .am-button-ghost){
+    color: #fff;
+    background-color: transparent;
+    border: 1PX solid #fff;
+    height: 70px
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,19 @@
+
+.commonLine {
+	padding: 50px 40px 20px 40px;
+}
+
+.totalprice {
+	color: #333;
+}
+
+.price {
+	color: #3e89b3;
+	font-size: 40px;
+	padding: 10px 40px 20px 40px;
+}
+
+.ordersnos {
+	word-break: break-all;
+	line-height: 52px;
+}

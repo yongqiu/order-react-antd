@@ -1,0 +1,19 @@
+
+.blockTitle {
+	padding: 50px 40px 20px 40px;
+	font-size: 36px;
+	color: #333;
+}
+
+.deliveryItem {
+	padding: 40px 40px 0px 40px;
+}
+
+.deliveryItemTitle {
+	line-height: 60px;
+}
+
+.deliveryItemContent {
+	color: #3e89b3;
+	word-break: break-all;
+}

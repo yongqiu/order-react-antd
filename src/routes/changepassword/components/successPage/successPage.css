@@ -1,0 +1,12 @@
+:global(.successPage){
+  background: none;
+  border: none;
+  padding-top: 130px;
+}
+:global(.successPage:after){
+  border: none;
+}
+
+:global(.successPage .am-result-title){
+  margin-top:50px
+}

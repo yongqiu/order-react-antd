@@ -1,0 +1,141 @@
+
+.inputwrap {
+	background-color: transparent;
+	padding-left: 4px;
+}
+
+.accpswinput {
+	background-image: url(../../assets/icon_account.png);
+	background-size: cover;
+	height: 80px;
+	width: 80px;
+	margin-right: 12px;
+}
+
+.pswinput {
+	background-image: url(../../assets/icon_psw.png);
+	background-size: cover;
+	height: 80px;
+	width: 80px;
+	margin-right: 12px;	
+}
+
+.divwrap {
+    width: 100%;
+    margin: 0px 80px;	
+}
+
+:global(.am-list-body) {
+    position: relative;
+    background-color: transparent;
+    border: none; 
+}
+
+
+:global(.loginForm .am-list-item.am-input-item) {
+	height: 0.9rem;
+	padding-left: 0rem; 
+	padding-right: 0rem;
+}
+
+:global(.loginForm .am-list-item.am-input-item:after) {
+	left: 0px;
+}
+
+:global(.loginForm .am-list-item .am-input-control input) {
+	background: transparent;
+	border: none;
+	color: #ffffff;
+}
+
+:global(.loginForm .am-list .am-list-item.am-input-item:after) {
+	left: 0;
+}
+
+:global(.loginForm .am-list-body:after) {
+}
+
+.btn {
+    width: 100%;
+    margin: 0px 0.8rem;
+}
+
+:global(.termmodal) {
+	width: 90% !important;
+}
+
+:global(.am-button-primary) {
+	background-color: #0060a5;
+    border: 1px solid #0060a5;
+}
+
+:global(.am-button-primary.am-button-disabled) {
+	background-color: #0b5f9c;
+}
+
+:global(.license .am-checkbox-agree .am-checkbox-agree-label a) {
+	color: #cccccc;
+	text-decoration: underline;
+}
+
+:global(.license .am-checkbox-agree) {
+	margin-left: 0rem;
+}
+
+:global(.rememberme) {
+	margin-top: 4px;
+}
+
+:global(.rememberme .am-checkbox) {
+	margin-right: 14px;
+	margin-bottom: 4px;
+	float: left;
+}
+
+:global(.rememberme .am-checkbox + span) {
+	float: left;
+	width: 75%;
+}
+
+:global(.rememberme .am-checkbox-wrapper) {
+	color: #cccccc;
+	font-size: 0.28rem;
+	float: left;
+	line-height: 52px;
+	width: 100%;
+}
+
+
+:global(.demo-image) {
+	width: 1.5rem;
+	height: 1.5rem;
+	border-radius: 0.75rem;
+	margin: 0 auto;
+	background-color: #108ee9;
+	line-height: 1.5rem;
+	color: white;
+}
+:global(.demo-title) {
+	margin-top: 0.3rem;
+	margin-bottom: 0.3rem;
+	font-size: 0.32rem;
+	color: #000;
+}
+:global(.demo-content) {
+	font-size: 0.26rem;
+	color: #333;
+	text-align: left;
+}
+:global(.modal-demo-content) {
+	height: 6rem;
+	overflow: auto;
+}
+
+:global(.orkerTerm p) {
+	line-height: 36px;
+}
+
+:global(.orkerTerm span) {
+	display: block;
+	margin: 16px 0px;
+}

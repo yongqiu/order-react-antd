@@ -1,0 +1,16 @@
+:global(.ShareButton){
+  
+}
+.TextareaItem{
+  background: #ccc;
+  z-index: -1;
+}
+.title{display: block;}
+.content{color: #3a3a3a;display: block;padding: 10px}
+.copyTarget{
+  opacity: 0;
+  width: 1px;
+  height: 1px  
+}
+.copyButton{margin: 10px}
+.copycontent{height: 1px;width: 1px}

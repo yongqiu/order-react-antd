@@ -1,0 +1,14 @@
+
+:global(.login) {
+	width: 100%;
+	height: auto;
+	background-image: -webkit-gradient(radial, center center, 0, center center, 400, from(#146D8B), to(#030C29));
+}
+
+:global(.login .mRemember div.am-flexbox){
+	width: 100%;
+	margin: 0rem 0.8rem;
+}
+.regbutton{margin: 0px 80px}
+.fengexian{margin: 20px 80px}
+.or{margin-left: 10px;color: rgba(179,179,179,1)}

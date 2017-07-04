@@ -1,0 +1,62 @@
+
+.sidebarheader {
+	width: 100%;
+}
+
+.sidebarheaderwrap {
+	position: relative;
+	padding: 70px 40px 120px 40px;
+	background: #026c9c;
+	width: 100%;
+}
+
+.sidebarusername {
+	position: absolute;
+	color: #ddd;
+	font-size: 30px;
+	bottom: 12%;
+	left: 8%;
+}
+
+.sidebarContentwrap {
+	height: 80px;
+	line-height: 80px;
+	width: 100%;
+	padding: 30px 16px;
+	color: #666666;
+}
+
+.sidebarContentonwrap {
+	height: 80px;
+	line-height: 80px;
+	width: 100%;
+	padding: 20px 16px;
+	color: #ffffff;
+	background: #0088CE;
+}
+
+.sidebaritemicon {
+	width: 72px;
+	height: 72px;
+	margin: 8px 32px;
+	vertical-align: middle;
+}
+
+.sidebaritemtitle {
+	vertical-align: middle;
+}
+
+.devideline {
+    width: 84%;
+    background-color: #dfdfdf;
+    height: 1px;
+    border: none
+}
+
+:global(.am-drawer-sidebar) {
+	z-index: 40;
+}
+
+:global(.sidebarwrap) {
+	padding-bottom: 120px;
+}

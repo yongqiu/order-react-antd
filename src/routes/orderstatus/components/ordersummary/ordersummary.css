@@ -1,0 +1,76 @@
+
+.orderSummaryWrap {
+	min-height: 200px;
+    width: 100%;
+    background: #fff;
+    border-top: 0.01rem solid #F5F5F9;
+    border-bottom: 0.01rem solid #F5F5F9;
+    margin-bottom: 16px;
+}
+
+.orderSummaryStatus {
+	padding: 50px 40px 20px 40px;
+}
+
+.orderSummaryStatus span{
+	color: #4caf50;
+	font-size: 42px;
+	font-weight: bold;
+}
+
+.orderSummaryInf {
+	padding: 30px 40px 0px 40px;
+}
+
+.orderSummaryInf p {
+	margin: 20px auto;
+	color: #666;
+	font-size: 30px;
+}
+
+.orderSummaryView {
+    width: 96%;
+    margin: 50px auto 20px auto;
+    text-align: center;	
+    font-size: 24px;
+}
+
+.orderSummaryView div {
+	margin: 10px 0px;
+	color: #4caf50;
+}
+
+.devideLine {
+	border: 1px solid #eee;
+	width: 92%;
+	margin: 0px auto;
+}
+
+.iconTipIndexCircle {
+    width: 50px;   
+    height: 50px;   
+    border:4px solid #03A9F5;   
+    border-radius: 50%;
+    line-height: 50px;
+    text-align: center; 	
+    color: #03A9F5;
+    font-size: 32px;
+}
+
+.iconTipIcon {
+	width: 60%;
+}
+
+.iconTipContent {
+	font-size: 30px;
+	color: #999;
+}
+
+:global( .statusIconTipModalContent ) {
+	height: 7.5rem;
+	padding-top: 40px;
+}
+
+:global(.ordernos span) {
+	word-break: break-all;
+}

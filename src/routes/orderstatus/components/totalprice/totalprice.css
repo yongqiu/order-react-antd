@@ -1,0 +1,56 @@
+
+.totalPriceWrap{
+	min-height: 200px;
+    width: 100%;
+    background: #fff;
+    margin-bottom: 16px;
+}
+
+.totalPriceTitle {
+	padding: 50px 40px 20px 40px;
+}
+
+.totalPriceTitle span{
+	color: #333;
+	font-size: 42px;
+	font-weight: bold;
+}
+
+.devideLine {
+	border: 1px solid #eee;
+	width: 92%;
+	margin: 0px auto;
+}
+
+.totalPriceContentWrap {
+	padding: 30px 40px 20px 40px;
+}
+
+.totalPriceContent {
+	width: 80%;
+	float: left;
+}
+
+.totalPriceContent p {
+	margin: 20px 0px;
+	color: #666;
+}
+
+.rightArrow {
+	width: 20%;
+	float: right;
+	text-align: right;
+	font-size: 44px;
+	color: #999;
+}
+
+p.price {
+	color: #03a9f4;
+	font-size: 54px;
+}
+
+p.products {
+	font-size: 36px;
+	color: #686868;
+	word-break: break-all;
+}

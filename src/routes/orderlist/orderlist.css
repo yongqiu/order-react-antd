@@ -1,0 +1,11 @@
+
+:global(.am-drawer-sidebar) {
+	width: 75%;
+	background: #f4f4f4;
+}
+
+:global(.orderlistwrap) {
+	height: 84% !important;
+	margin: 0px !important;
+	border: none !important;
+}

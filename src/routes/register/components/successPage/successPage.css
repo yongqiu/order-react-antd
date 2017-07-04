@@ -1,0 +1,17 @@
+:global(.registerSuccess){
+  background: none;
+  border: none;
+  padding-top: 130px;
+}
+:global(.registerSuccess p){
+  text-align: center;
+}
+.row_img img{height: 120px;width: 120px}
+.title{font-weight: bold;}
+
+.button{
+    background: #00A9F4;
+    width: 90%;
+    margin: 60px auto;
+    border: none;
+}

@@ -1,0 +1,28 @@
+
+.blockwrap {
+	min-height: 200px;
+    width: 100%;
+    background: #fff;
+    border-top: 0.01rem solid #F5F5F9;
+    border-bottom: 0.01rem solid #F5F5F9;
+    margin-bottom: 16px;
+	color: #666;
+}
+
+.devideLine {
+	border: 1px solid #eee;
+	width: 92%;
+	margin: 0px auto;
+}
+
+.devideLineBold {
+	border: 1px solid #c3dff3;
+	width: 92%;
+	margin: 0px auto;	
+}
+
+:global(.orderdetailswrap) {
+	height: 90% !important;
+	margin: 0px !important;
+	border: none !important;
+}

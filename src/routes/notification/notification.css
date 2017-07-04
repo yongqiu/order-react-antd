@@ -1,0 +1,6 @@
+
+:global(.notificationwrap) {
+	height: 90% !important;
+	margin: 0px !important;
+	border: none !important;
+}

@@ -1,0 +1,24 @@
+
+.contentwrap {
+	color: #3e89b3;
+}
+
+.contentItem {
+}
+
+.shipTitle {
+	color: #333;
+}
+
+.shipContent {
+	font-size: 26px;
+	word-break: break-all;
+}
+
+.trackingheader {
+	display: block;
+}
+
+:global(.trackingEmpty i) {
+	display: none !important;
+}

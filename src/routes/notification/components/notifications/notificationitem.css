@@ -1,0 +1,42 @@
+
+.notificationwrap {
+    background: #fafafa;
+    margin-bottom: 16px;
+}
+
+.notificationimg {
+	float: left;
+	width: 20%;
+	text-align: center;
+	margin-top: 40px;
+}
+
+.notificationcontentwrap {
+	width: 100%;
+	color: #686868;
+}
+
+:global(ul.notificationcontent) {
+	list-style: none;
+	line-height: 48px;
+	padding: 0px 20px 0px 0px;
+	float: left;
+	width: 76%;
+	margin: 20px 0px;
+}
+
+:global(ul.notificationcontent li) {
+	margin: 10px 0px;
+	font-size: 32px;
+}
+
+:global(ul.notificationcontent li.nfcontentpublisher) {
+	color: #a0a0a0;
+	font-size: 32px;
+}
+
+:global(ul.notificationcontent li.nfcontentdate) {
+	color: #a0a0a0;
+	font-size: 32px;
+	word-break: break-all;
+}

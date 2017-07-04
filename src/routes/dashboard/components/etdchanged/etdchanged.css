@@ -1,0 +1,63 @@
+
+.etdchangedWrap {
+	margin: 15px auto;
+	border-radius: 4px;
+	width: 96%;
+	background: #FF6633;
+	height: 300px;
+}
+
+.fontBase{
+	color: #ffffff;
+	text-align: left;
+}
+
+.etdchanged {
+	width: 69%;
+	height: 300px;
+	float: left;
+	background: #FF6633;
+}
+
+.etdchangedTitle {
+	composes: fontBase;
+	font-size: 72px;
+	font-weight: bold;
+	padding: 70px 40px 20px 60px;
+}
+
+.etdchangedContent {
+	composes: fontBase;
+	font-size: 42px;
+	padding: 0px 60px;
+}
+
+.etdchangedImg {
+	width: 30%;
+	height: 220px;
+	float: left;
+	background: #FF6633;
+	margin-top: 80px;
+	position: relative;
+}
+
+.etdchangedbg {
+	position: absolute;	
+	right: 60px;
+}
+
+.blockbottom {
+	height: 18px;
+	width: 100%;
+	float: left;
+	background: url(../../assets/bg_etd.png) top left repeat-x;
+	margin-top: -1px;
+}
+
+.etdchangedNum {
+	width: 	100%;
+	height: 100%;
+	line-height: 110px;
+	font-size: 72px;
+	color: #fff;
+}
